@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 400px;
+    width: 300px;
+    margin-bottom: 30%;
+}
+h1{
+    color: rgba(240, 248, 255, 0.425);
+    margin: auto;
+    position: absolute;
+    user-select: none;
+    line-height: 16px; 
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-family: "Major Mono Display", monospace;
+    font-size: 60px;
+}
+
+     
+
+.square{
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition:  2s ease;
+}
+.square:hover{
+    transition-duration: 0s;
+}
